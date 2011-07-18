@@ -1,0 +1,4 @@
+RecordId, Chips, Computer
+1, Fritos, Acer
+2, Sun, Asus
+3, Doritos, iPad
