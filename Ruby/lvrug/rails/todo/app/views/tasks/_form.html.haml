@@ -1,0 +1,12 @@
+= form_for @task do |f|
+  = f.error_messages
+  %p
+    = f.label :item
+    %br
+    = f.text_field :item
+  %p
+    = f.label :description
+    %br
+    = f.text_field :description
+  %p
+    = f.submit
