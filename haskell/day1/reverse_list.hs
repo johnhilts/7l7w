@@ -1,8 +1,7 @@
+-- by changing "Integer" to "a" I was able to accept any type that supports the
+-- operators that I'm using in the function
 module Main where
-	reverseList :: [Integer] -> [Integer]
+	reverseList :: [a] -> [a]
 	reverseList [] = []
-	reverseList (h:t) = (reverse t) ++ [h]
-
--- let crew = ["Kirk", "Spock", "McCoy"]
--- [(a, b) | a <- crew, b <- crew, a < b]
+	reverseList (h:t) = reverse t ++ [h]
 
